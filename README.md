@@ -14,7 +14,7 @@ pip install pandas
 
 ## Objective of code
 
-To determine which Machine Learning Models has higher accuracy in predicting Brain Cancer
+To determine which Machine Learning Model has higher accuracy in predicting Brain Cancer.
 
 ## Approach
 
