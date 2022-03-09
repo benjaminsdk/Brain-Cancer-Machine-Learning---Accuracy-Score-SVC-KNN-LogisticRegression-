@@ -48,13 +48,16 @@ cm = confusion_matrix(y_test, y_predLogistic)
 print(cm)
 acc1 = accuracy_score(y_test, y_predLogistic)
 print(acc1)
+## To print the accuracy score for Logistic Regression
 
 cm1 = confusion_matrix(y_test, y_predSVC)
 print(cm1)
 acc2 = accuracy_score(y_test,y_predSVC)
 print(acc2)
+## To print the accuracy score for SVC
 
 cm2 = confusion_matrix(y_test, pred)
 print(cm2)
 acc3 = accuracy_score(y_test,pred)
 print(acc3)
+## To print the accuracy score for KNN
