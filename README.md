@@ -16,6 +16,12 @@ pip install pandas
 
 To determine which Machine Learning Models has higher accuracy in predicting Brain Cancer
 
+## Approach
+
+A data sample size of 0.3 was used for test while the remainer of the data is used for training.
+
+Col 'y' in the file braincancer.csv with the values of 'Tumor' or 'Normal' was used as labelling.
+
 ## Results
 
 1. Both KNN and Logistic Regression had an accuracy score of 1.0
