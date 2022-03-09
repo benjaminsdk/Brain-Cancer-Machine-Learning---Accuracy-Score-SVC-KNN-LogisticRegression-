@@ -44,6 +44,7 @@ pred = KNN.predict(X_test)
 
 
 from sklearn.metrics import confusion_matrix, accuracy_score
+
 cm = confusion_matrix(y_test, y_predLogistic)
 print(cm)
 acc1 = accuracy_score(y_test, y_predLogistic)
